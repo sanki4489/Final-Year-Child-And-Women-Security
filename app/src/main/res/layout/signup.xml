@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="34dp"
+        android:text="Hey There"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="45sp" />
+
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="203dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="227dp"
+        android:onClick="message"
+        android:text="Sign in"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="148dp"
+        android:text="Hint: Provide Parents number"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="381dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="18dp"
+        android:hint="Full name" />
+
+    <EditText
+        android:id="@+id/numberHere"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Parents number" />
+
+    <EditText
+        android:id="@+id/yournumber"
+        android:layout_width="381dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Your Number" />
+
+
+</RelativeLayout>
